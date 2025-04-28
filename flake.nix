@@ -13,7 +13,7 @@
         default = pkgs.buildGoModule {
           name = "opencode";
           src = pkgs.lib.cleanSource ./.;
-          vendorHash = "sha256-cFzkMunPkGQDFhQ4NQZixc5z7JCGNI7eXBn826rWEvk=";
+          vendorHash = "sha256-+LIGTFBj9GK3V3zGP863DFPY1YOp6VUWjeDdGS1LGVY=";
           doCheck = false;
         };
       });
